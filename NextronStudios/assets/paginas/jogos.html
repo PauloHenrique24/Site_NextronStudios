@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nextron Studios - Nossos Jogos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Links -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../../images/logonewwhite.svg" type="image/x-icon">
+</head>
+<body class="port">
+
+    <header class="header">
+        <h1 class="header-title">Nextron Studios</h1>
+
+        <div class="header_menu">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="sobre.html" rel="next">Sobre</a></li>
+                <li class="active"><a>Jogos</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="novidades.html">Novidades</a></li>
+                <li><a href="contato.html">Suporte <img src="https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/9db08c7809308ca2fa4614f3c2d45a91.svg" alt=""></a></li>
+            </ul>
+        </div>
+
+        <!-- Menu Burguer -->
+        <div class="header_menu_burguer">
+                <input type="checkbox" name="menucircular" id="menucircular" class="menucircular"  onclick="open_burguer();">
+                <label for="menucircular" class="menu-btn">
+                    <span class="linha linha-1" id="linha1"></span>
+                    <span class="linha linha-2" id="linha2"></span>
+                    <span class="linha linha-3" id="linha3"></span>
+                </label>
+                <ul id="burg">
+                    <li>
+                        <a href="../../index.html">
+                        <span class="material-symbols-outlined" id="burg-txt">home</span>
+                        <p class="burg_desc">Home</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sobre.html">
+                            <span class="material-symbols-outlined" id="burg-txt">import_contacts</span>
+                            <p class="burg_desc">Sobre</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active">
+                            <span class="material-symbols-outlined" id="burg-txt">perm_media</span>
+                            <p class="burg_desc">Jogos</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="equipe.html">
+                            <span class="material-symbols-outlined" id="burg-txt">backup_table</span>
+                            <p class="burg_desc">Equipe</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="novidades.html">
+                            <span class="material-symbols-outlined" id="burg-txt">payments</span>
+                            <p class="burg_desc">Novidades</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contato.html">
+                            <span class="material-symbols-outlined" id="burg-txt">call</span>
+                            <p class="burg_desc">Suporte</p>
+                        </a>
+                    </li>
+                </ul>
+        </div>
+    </header>
+
+    <h2 class="port_title">Nossos Jogos</h2>
+    <p class="port_subtitle">Os sites One Page, também conhecidos como sites de página única, são uma forma moderna e eficiente de apresentar conteúdo online. Diferentemente dos sites tradicionais, que têm várias páginas interligadas por links, os sites One Page concentram todo o seu conteúdo em uma única página, na qual os usuários podem rolar verticalmente para acessar informações diferentes.  </p>
+
+    <main id="container-games">
+        <section class="content-games"><!-- 3 Jogos por linha -->
+            <article class="card-game">
+                <a href="../Jogos/pagjogo/index.html">
+                    <img src="../../images/Teaser.png" alt="Imagem do Jogo">
+                    <h2>Sob O Sol Do Sertão</h2>
+                </a>
+            </article>
+
+            <article class="card-game"> 
+                <img src="../../images/Capa.png" alt="Imagem do Jogo">
+                <h2>Burguer Chef</h2>
+            </article>
+
+            <article class="card-game"> 
+                <img src="../../images/capaterrius.png" alt="Imagem do Jogo">
+                <h2>Terrius</h2>
+            </article>
+        </section>
+    </main>
+
+
+    <div id="page-container">
+        <footer class="foot">
+            &copy; <span>Nextron</span> Studios | Design: <span>Nextron</span> Studios
+        </footer>
+    </div>
+
+</body>
+
+    <script src="../js/menu.js"></script>
+
+</html>
