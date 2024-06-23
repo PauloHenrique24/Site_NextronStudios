@@ -21,7 +21,7 @@ body {
 }
 
 .banner {
-    background-image: url(img/Design\ sem\ nome.png);
+    background-image: url(img/banner\ jogo\ sertão.PNG);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -162,7 +162,7 @@ body {
     border-radius: 13px;
 
     background-color: yellow;
-
+    padding: .4rem;
 }
 
 #voltarBtn a{
