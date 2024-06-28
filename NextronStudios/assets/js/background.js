@@ -1,6 +1,7 @@
 let bg = document.getElementById('bg');
+
 let imgs = [
-    '../../images/Banners/banner_jogo_sertao.png',
+    '../../images/Banners/bannerSertao.png',
     '../../images/Banners/banner_terrius.png',
     '../../images/Banners/capaGalaxiumExtraction.jpg'
 ];
